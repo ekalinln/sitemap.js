@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "sourceMap": false,
+    "outDir": "./dist/",
+    "strictNullChecks": true,
+    "strict": true,
+    "declaration": true,
+    "module": "CommonJS",
+    "target": "ES2022",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "lib": ["es2022"],
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+  "include": ["index.ts", "cli.ts"],
+  "exclude": ["node_modules"]
+}
